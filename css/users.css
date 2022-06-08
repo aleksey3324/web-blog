@@ -1,0 +1,30 @@
+.all-users {
+  margin-top: 50px;
+}
+
+.user-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fec008;
+}
+
+.user-block + .user-block  {
+  margin-top: 20px;
+}
+
+.user-block__delete {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #de7474;
+  color: #fff;
+  transition: transform .5s ease;
+}
+
+.user-block__delete:hover {
+  transform: scale(1.1);
+}

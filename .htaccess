@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 /blog-php-work/error.php
+
+# RewriteRule ^register?$ /blog-php-work/register.php [NC, L]

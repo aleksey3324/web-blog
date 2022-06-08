@@ -1,0 +1,53 @@
+.post + .post {
+  margin-top: 30px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.avtor {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.avtor span {
+  background-color: #F0E68C;
+  padding: 2px 7px;
+  font-weight: 300;
+  border-radius: 2px;
+}
+
+.link-read {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fec008;
+  color: #42410c;
+  transition: transform .5s ease;
+}
+
+.link-read:hover {
+  transform: scale(1.1);
+}
+
+.text,
+.date {
+  margin-top: 15px;
+}
+
+.comment {
+  width: 100%;
+  background-color: #fec008;
+  padding: 20px;
+  border-radius: 5px;
+  color: #42410c;
+}
+
+.comment + .comment {
+  margin-top: 30px;
+}
